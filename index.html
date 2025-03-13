@@ -45,10 +45,16 @@
         <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
             <ul class="navbar-nav">
                 <li class="nav-item ms-2 d-md-inline d-md-none">
+                    <a class="nav-link" href="interlink.html">API Integration</a>
+                </li>
+                <li class="nav-item ms-2 d-md-inline d-md-none">
                     <a class="nav-link" href="chatbot.html">Chatbot</a>
                 </li>
                 <li class="nav-item ms-2 d-md-inline d-md-none">
                     <a class="nav-link" href="assets/Resume.pdf">Resume</a>
+                </li>
+                <li class="nav-item ms-2 d-md-inline d-none">
+                    <a class="btn btn-secondary" href="interlink.html">API Integration</a>
                 </li>
                 <li class="nav-item ms-2 d-md-inline d-none">
                     <a class="btn btn-secondary" href="chatbot.html">Chatbot</a>
@@ -67,13 +73,13 @@
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6">
                 <h1>Home Page of Justin Jones</h1>
-                <p>
+                <p class="lead">
                     Welcome! I'm Justin, a computer science student with a passion for software development, 
                     hardware, and problem-solving. With experience in web development, game development, 
                     and hands-on engineering, I enjoy building efficient solutions—whether it's coding applications or 
                     designing hardware.
                 </p>
-                <p>
+                <p class="lead">
                     I’ll dive deeper into my skills and experiences 
                     throughout this site. Feel free to explore and reach out!
                 </p>
@@ -81,8 +87,8 @@
             <div class="col-md-3 text-center d-none d-md-block">
                 <img class ="img-fluid img-thumbnail" src="assets/headshot.jpg" alt="Headshot of Justin Jones">
                 <div class="d-flex flex-column align-items-center">
-                    <div id="email-p" onclick="showhideEmailPersonal()">Show my personal email</div>
-                    <div id="email-s" onclick="showhideEmailSchool()">Show my school email</div>
+                    <div id="email-p" onclick="showhideEmailPersonal()"><p class="lead">Show my personal email</p></div>
+                    <div id="email-s" onclick="showhideEmailSchool()"><p class="lead">Show my school email</p></div>
                 </div>
             </div>
         </div>
@@ -91,10 +97,10 @@
 
 <section id = "main">
     <div class="container p-5 border-start border-end border-bottom border-secondary border-1 shadow-lg">
-        <div class="row justify-content-center p-3">
+        <div class="row justify-content-center p-4">
             <div class="col-md-10 align-items-start">
                 <h3>About Me</h3>
-                <p>
+                <p class="lead">
                     I was raised in the city of Edwardsville, Illnois (about 30 minutes from St. Louis).
                     I attended Edwardsville High School where I graduated with honors in 2022. Since High School, 
                     I have been attending the University of Dayton, where I exprect to graduate with honors in May of 2025.
@@ -108,7 +114,7 @@
             </div>
         </div>
         <div class="row justify-content-center p-4">
-            <div class="col-md-4 align-items-center">
+            <div class="col-md-3 align-items-start">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="assets/chatbot-icon.png" alt="Card image cap">
                     <div class="card-body">
@@ -118,12 +124,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 align-items-center">
+            <div class="col-md-3 align-items-start">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="assets/university_of_dayton.jpg" alt="dayton.jpg">
+                    <div class="card-body">
+                        <h5 class="card-title">API Integration</h5>
+                        <p class="card-text">Here is a link to a page with some API integrations that I created for one of my courses.</p>
+                        <a href="interlink.html" class="btn btn-primary">Integration</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 align-items-start">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="assets/resume.png" alt="resume.png">
                     <div class="card-body">
                         <h5 class="card-title">Resume</h5>
-                        <p class="card-text">Here is a link to my resume, which has a more structured list of my skills and experiences</p>
+                        <p class="card-text">Here is a link to my resume, which has a more structured list of my skills and experiences.</p>
                         <a href="assets/Resume.pdf" class="btn btn-primary">Resume</a>
                     </div>
                 </div>
