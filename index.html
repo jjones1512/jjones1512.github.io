@@ -44,8 +44,8 @@
 
     <!-- contact panel -->
     <div id="contact-panel" class="contact-panel mt-3">
-        <p id="email-p" class="email-link" onclick="showhideEmailPersonal()">Show my personal email</p>
-        <p id="email-s" class="email-link" onclick="showhideEmailSchool()">Show my school email</p>
+        <p id="email-p" class="email-link" ></p>
+        <p id="email-s" class="email-link" ></p>
     </div>
 </header>
 
@@ -144,6 +144,8 @@
     // Toggle Contact Panel
     document.getElementById('contact-btn').onclick = () => {
         document.getElementById('contact-panel').classList.toggle('open');
+        showhideEmailPersonal()
+        showhideEmailSchool()
     };
 </script>
 
